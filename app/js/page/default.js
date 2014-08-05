@@ -2,24 +2,12 @@ define(function (require) {
 
   'use strict';
 
-  /**
-   * Module dependencies
-   */
-
-  // var MyComponent = require('component/my_component');
-
-  /**
-   * Module exports
-   */
+  var initCollapsible = require('component/collapsible');
 
   return initialize;
 
-  /**
-   * Module function
-   */
-
   function initialize() {
-    // MyComponent.attachTo(document);
+    initCollapsible();
   }
 
 });

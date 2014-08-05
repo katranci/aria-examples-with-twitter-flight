@@ -1,1 +1,5 @@
+body {padding: 5% 10%;}
 
+.collapsible {margin: 1em 0;}
+.collapsible__region {display: none;}
+.collapsible__close-button {float: right;}

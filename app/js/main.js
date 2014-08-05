@@ -17,7 +17,7 @@ require(
     'flight/lib/debug'
   ],
 
-  function(compose, registry, advice, withLogging, debug) {
+  function(compose, registry, advice, withLogging, debug, CollapsibleButton, CollapsibleRegion) {
     debug.enable(true);
     compose.mixin(registry, [advice.withAdvice]);
 

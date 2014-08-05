@@ -6,19 +6,52 @@
     <title>aria-examples-with-twitter-flight</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    Hello world
+    <h2>Hide/Show Example 1: Region follows Hide/Show Button</h2>
+
+    <div class="collapsible">
+      <a href="#" class="collapsible__toggle-button" role="button" aria-controls="r1">Show/Hide #1</a>
+      <div id="r1" class="collapsible__region">
+        <a href="#" class="collapsible__close-button" role="button" aria-controls="r1">Close</a>
+        <p>Alter, camerarius extums tandem imitari de bassus, raptus apolloniates?</p>
+        <p>Nunquam demitto hydra.Studere satis ducunt ad salvus ionicis tormento.Resistentias sunt adelphiss de castus visus.</p>
+        <p>Ubi est neuter spatii?A falsis, quadra rusticus lamia.Extums congregabo in revalia!</p>
+        <p>Abactors ire!Solems peregrinationes, tanquam albus guttus.Nunquam prensionem accentor.</p>
+      </div>
+    </div>
+
+    <div class="collapsible">
+      <a href="#" class="collapsible__toggle-button" role="button" aria-controls="r2">Show/Hide #2</a>
+      <div id="r2" class="collapsible__region">
+        <a href="#" class="collapsible__close-button" role="button" aria-controls="r2">Close</a>
+        <p>Eheu, audax contencio!Mensa, impositio, et messor.Ubi est teres itineris tramitem?</p>
+        <p>Rationes velum!Demissios sunt fiscinas de emeritis armarium.Sunt racanaes acquirere altus, secundus deuses.</p>
+        <p>Hercle, silva peritus!, extum!Rumor, solitudo, et lixa.Brevis, festus mensas satis dignus de fortis, clemens secula.</p>
+        <p>Sunt deuses vitare gratis, castus amicitiaes.Vae, salvus demolitione!Musa nobilis repressor est.</p>
+      </div>
+    </div>
+
+    <div class="collapsible">
+      <a href="#" class="collapsible__toggle-button" role="button" aria-controls="r3">Show/Hide #3</a>
+      <div id="r3" class="collapsible__region">
+        <a href="#" class="collapsible__close-button" role="button" aria-controls="r3">Close</a>
+        <p>Festus, alter onuss rare resuscitabo de fortis, fatalis amicitia.Pol, a bene glos, rumor!Heu, secundus turpis!</p>
+        <p>Sunt aonideses imperium noster, pius indexes.Eleatess assimilant in aetheres!Urias studere in bi-color avenio!</p>
+        <p>Pol, a bene scutum, mensa!Parss nocere in berolinum!Nunquam captis omnia.</p>
+        <p>Ubi est fidelis extum?Alter, gratis sagas absolute prensionem de grandis, neuter burgus.Varius urbss ducunt ad vita.</p>
+      </div>
+    </div>
 
     <!--[if lt IE 9]>
-    <script src="/bower_components/es5-shim/es5-shim.js"></script>
-    <script src="/bower_components/es5-shim/es5-sham.js"></script>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/es5-shim/es5-sham.js"></script>
     <![endif]-->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/requirejs/require.js" data-main="js/main.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/requirejs/require.js" data-main="js/main.js"></script>
 
   </body>
 </html>
